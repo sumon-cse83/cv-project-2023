@@ -1,0 +1,138 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+background-color:gray;
+font-family: 'Handjet', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width:1000px;
+    background-color:aquamarine;
+    margin:0 auto;
+    padding:10px;
+}
+
+header{
+
+}
+
+.profile-image{
+    height:120px;
+    width:100px;
+    border:3px solid white;
+    border-radius: 50%;
+    float:left;
+}
+
+.profile-name{
+    float:left;
+    padding:30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:darkgreen;
+}
+
+.contact{
+    float:right;
+    padding:30px;
+}
+
+.contact a{
+ text-decoration:none;
+ font-weight:bold;
+ color:forestgreen;   
+ 
+}
+
+.contact a:hover{
+    text-decoration:underline;
+    color:brown;
+}
+
+.div-clear{
+    clear:both;
+}
+
+hr{
+    border:3px solid black;
+    width:100%;
+    border-bottom:none;
+    margin:10px;
+}
+
+#objective{
+
+}
+
+.section-container{
+
+
+}
+
+.left-div{
+float:left;
+width:30%;
+
+
+}
+
+.right-div{
+    float:left;
+    width:70%
+    
+
+}
+
+.common-rule{
+border:1px solid black;
+width:100%;
+}
+
+.left-right-div{
+    width:30%;
+    float:left;
+    margin: 10px;
+
+}
+
+.middle-right-div{
+    width:30%;
+    float:left; 
+    margin: 10px;  
+}
+
+.right-right-div{
+    width:30%;
+    float:left;  
+    margin: 10px;
+}
+
+/* --- footer section start */
+
+.bottom-container{
+    background-color:black;
+    
+    text-align:center;
+    
+}
+
+.bottom-container a{
+
+    text-decoration:none;
+    color:aliceblue;
+    Margin:20px;
+    
+
+}
+
+.bottom-container p{
+    color:aliceblue;
+    margin-top:20px;
+}
+
+/*--footer section close---*/
